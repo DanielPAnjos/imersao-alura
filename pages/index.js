@@ -75,7 +75,7 @@ export default function PaginaInicial() {
                 event.preventDefault(); 
                 console.log('Alguem submeteu o form')
                 //mudar de página
-                roteamento.push('/chat');
+                roteamento.push(`/chat?username=${username}`);
 
               }} 
               styleSheet={{
